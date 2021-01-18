@@ -1,0 +1,29 @@
+{
+  "name": "vue-scooter-template",
+  "version": "0.0.2",
+  "description": "vue-scooter-template for vue-scooter-cli",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vue-scooter dev",
+    "build": "vue-scooter build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrtianYs/vue-scooter-template.git"
+  },
+  "keywords": [
+    "vue",
+    "scooter",
+    "template"
+  ],
+  "author": "Tiany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrtianYs/vue-scooter-template/issues"
+  },
+  "homepage": "https://github.com/MrtianYs/vue-scooter-template#readme",
+  "devDependencies": {
+    "vue-scooter-cli": "0.0.1"
+  }
+}

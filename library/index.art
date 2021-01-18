@@ -1,0 +1,9 @@
+import router from './router.js';
+{{ if Vuex }}import store from './store/index.js';{{ /if }}
+let App = () => VueScooter.load('app.vue');
+new Vue({
+  el: '#app',
+  router,
+  {{ if Vuex }}store,{{ /if }}
+  render: (h) => h(App),
+});
