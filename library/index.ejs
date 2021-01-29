@@ -1,0 +1,9 @@
+<% if(vueRouter) { %>import router from './router.js'<% } %>
+<% if(vuex) { %>import store from './store/index.js'<% } %>
+let App = () => VueScooter.load('app.vue')
+new Vue({
+  el: '#app',
+  <% if(vueRouter) { %>router,<% } %>
+  <% if(vuex) { %>store,<% } %>
+  render: (h) => h(App),
+})
