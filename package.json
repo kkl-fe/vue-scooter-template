@@ -1,6 +1,6 @@
 {
   "name": "vue-scooter-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "vue-scooter-template for vue-scooter-cli",
   "main": "index.js",
   "scripts": {
