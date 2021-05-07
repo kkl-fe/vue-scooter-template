@@ -1,6 +1,6 @@
 {
   "name": "vue-scooter-template",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "vue-scooter-template for vue-scooter-cli",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/MrtianYs/vue-scooter-template#readme",
   "devDependencies": {
-    "vue-scooter-cli": "0.2.1"
+    "vue-scooter-cli": "0.2.2"
   }
 }
