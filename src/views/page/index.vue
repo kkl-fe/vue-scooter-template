@@ -1,20 +1,19 @@
 <template>
   <div class="vue-scooter">
-    <img src="../../assets/avatar.png" alt="">
+    <img src="../../assets/img/avatar.png" alt="" />
     <p>Vue-scooter</p>
   </div>
 </template>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style scope>
-  .vue-scooter {
-    text-align: center;
-    img {
-      margin-bottom: 10px;
-    }
+.vue-scooter {
+  text-align: center;
+  img {
+    margin-bottom: 10px;
   }
+}
 </style>
