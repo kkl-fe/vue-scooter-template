@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <% if (!vueRouter) { %> <router-view />
+    <% } else { %> <index /> <% } %>
+  </div>
+</template>
+
+<script>
+  <% if (!vueRouter) { %> import index from './views/page/index.vue' <% } %>
+  export default {
+    name: "app",
+    <% if (!vueRouter) { %> component: {
+      index
+    } <% } %>
+  };
+</script>
+
+<style>
+  :root {
+    --primary-color: blue;
+  }
+</style>
