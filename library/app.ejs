@@ -1,6 +1,6 @@
 <template>
   <div>
-    <% if (!vueRouter) { %> <router-view />
+    <% if (vueRouter) { %> <router-view />
     <% } else { %> <index /> <% } %>
   </div>
 </template>
